@@ -15,7 +15,7 @@ return {
     },
     config = function()
       require('dashboard').setup({
-        header = require('ascii').art.text.neovim.sharp,
+        header = require('ascii').art.text.doom.DooM,
         date_format = '%d/%m/%Y %H:%M:%S',
         directories = {
           '~/.config/nvim/',
