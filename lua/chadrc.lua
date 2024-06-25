@@ -6,7 +6,6 @@ local M = {}
 
 M.ui = {
 	theme = "nord",
-  
   tabufline = {
     enabled = false
   }
