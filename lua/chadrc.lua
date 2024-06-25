@@ -5,8 +5,11 @@
 local M = {}
 
 M.ui = {
-	theme = "onedark",
-
+	theme = "nord",
+  
+  tabufline = {
+    enabled = false
+  }
 	-- hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },
