@@ -13,6 +13,16 @@ return {
     end,
   },
 
+  {
+    "nvim-tree/nvim-tree.lua",
+    opts = require "configs.nvimtree",
+  },
+
+  {
+    "tpope/vim-fugitive",
+    cmd = { "Git", "G" },
+  },
+
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
