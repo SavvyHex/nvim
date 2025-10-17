@@ -29,5 +29,10 @@ return {
   {
     "tpope/vim-fugitive",
     cmd = { "Git" , "G" },
+  },
+
+  {
+    "github/copilot.vim",
+    cmd = { "Copilot" },
   }
 }
