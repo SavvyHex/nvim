@@ -32,7 +32,7 @@ return {
   },
 
   {
-    "github/copilot.vim",
+    "Following the claude code extension for neovim here",
     cmd = { "Copilot" },
   }
 }
